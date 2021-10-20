@@ -37,6 +37,14 @@ This is a bit more tedious, but it has its efficiency benefits
 
       > [src](/features/accounts/types/admin/auth/src)
       >> [/src/androidTest](/features/accounts/types/admin/auth/src/androidTest)
+      >> 
+      >>> Where Your AndroidTest Source is placed
+      >>> 
+      >>> [/src/androidTest/java](/features/accounts/types/admin/auth/src/androidTest/java)
+      >> 
+      >>>> [/src/androidTest/java/libetal](/features/accounts/types/admin/auth/src/androidTest/java/libetal)
+      >>> 
+      >>>> [/src/androidTest/java/libetal/mobile](/features/accounts/types/admin/auth/src/androidTest/java/libetal/mobile)
       >
       >> [/src/main](/features/accounts/types/admin/auth/src/main)
       >>
