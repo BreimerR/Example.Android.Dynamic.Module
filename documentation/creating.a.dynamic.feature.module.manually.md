@@ -34,19 +34,27 @@ This is a bit more tedious, but it has its efficiency benefits
 
 3. Create Working Directory Structure
     - Create [src](/features/accounts/types/admin/auth/src)
-      ```
-          . src
-          | 
-          .--/androidTest
-          |
-          .--/main        // Your Project Package details go inside here
-          |
-          .--/main/com
-          |
-          .--/main/com/src 
-          |
-          .--/test       // Your project package goes inside here
-      ```
+
+      > [src](/features/accounts/types/admin/auth/src)
+      >> [/src/androidTest](/features/accounts/types/admin/auth/src/androidTest)
+      >
+      >> [/src/main](/features/accounts/types/admin/auth/src/main)
+      >>
+      >>> [/src/main/java](/features/accounts/types/admin/auth/src/main/java)
+      >>>
+      >>>> [/src/main/java/libetal](/features/accounts/types/admin/auth/src/main/java/libetal)
+      >>>
+      >>>> [src/main/java/libetal/mobile](/features/accounts/types/admin/auth/src/main/java/libetal/mobile)
+      >>
+      >
+      >> [/src/test](/features/accounts/types/admin/auth/src/test)
+      > 
+      >>> [/src/test/java](/features/accounts/types/admin/auth/src/test/java)  
+      >> 
+      >>>[/src/test/java/libetal](/features/accounts/types/admin/auth/src/test/java/libetal)
+      >>
+      >>>[/src/test/java/libetal/mobile](/features/accounts/types/admin/auth/src/test/java/libetal/mobile)
+
 
 4. Add Your Manifest file
     - [main/AndroidManifest.xml](/features/accounts/types/admin/auth/src/main/AndroidManifest.xml)  
